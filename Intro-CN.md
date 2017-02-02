@@ -25,7 +25,7 @@
 # 思路引导：
 如果我想阻止小米推送服务的唤醒，首先它是服务，接着在“正在运行中的服务”中，找到它的名字是 com.xiaomi.mipush.sdk.WAKEUP
 <br />
-那么以 Oasis Feng 的 [rx-mipush](https://greenify.github.io/oasisfeng/rx-mipush) 为例子：
+那么以 Oasis Feng 的 [rx-mipush](https://greenify.github.io/greenify/rx-mipush) 为例子：
 
 ```xml
 <prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
@@ -51,9 +51,9 @@ https://greenify.github.io/<GitHub 用户名>/<代码库名>
 
 这个地址就可以分享给大家生效处方
 <br />
-以 Oasis Feng 的 [rx-mipush](https://greenify.github.io/oasisfeng/rx-mipush) 为例：
+以 Oasis Feng 的 [rx-mipush](https://greenify.github.io/greenify/x-mipush) 为例：
 <br />
-https://greenify.github.io/oasisfeng/rx-mipush
+https://greenify.github.io/greenify/rx-mipush
 
 # 写 README
 作者还建议我们写一下 README（并非必须，但极力推荐），说明你写的处方用来干了什么（写文档是个好习惯），README 遵循 MarkDown 语法（不懂去查一下），点击代码库中的 README.md，再按编辑
@@ -77,7 +77,7 @@ https://greenify.github.io/oasisfeng/rx-mipush
 
 - 禁用了 com.xiaomi.mipush.sdk.WAKEUP
 
-[点击生效](https://greenify.github.io/oasisfeng/rx-mipush)
+[点击生效](https://greenify.github.io/greenify/rx-mipush)
 ```
 点击下面的提交更改（commit changed），你的代码库就拥有了一些简单的说明
 
